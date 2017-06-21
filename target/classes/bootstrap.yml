@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: way2learn-eureka-server
+server:
+  port: 4001
+  
+eureka:   
+  instance:
+    hostname: localhost
+   
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    
+
